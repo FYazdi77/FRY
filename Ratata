@@ -47,7 +47,7 @@ CELESTIA_CHAIN="mamaki"
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $YZD/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $YZD/.bash_profile
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $YZD/.bash_profile
-source $FRY/.bash_profile
+source $YZD/.bash_profile
 
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
