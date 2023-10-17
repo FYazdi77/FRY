@@ -53,7 +53,7 @@ source $YZD/.bash_profile
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 
 -------------------------------------
-cp $YZD/networks/mamaki/genesis.json $FRY/.celestia-app/config/
+cp $YZD/networks/mamaki/genesis.json $YZD/.celestia-app/config/
 
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $FRY/.celestia-app/config/config.toml
