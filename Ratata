@@ -68,7 +68,7 @@ echo $BOOTSTRAP_PEERS
 sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $YZD/.celestia-app/config/config.toml
 
 -----------------------------------------------------------
-sed -i 's/timeout-commit = ".*/timeout-commit = "25s"/g' $FRY/.celestia-app/config/config.toml
+sed -i 's/timeout-commit = ".*/timeout-commit = "25s"/g' $YZD/.celestia-app/config/config.toml
 sed -i 's/peer-gossip-sleep-duration *=.*/peer-gossip-sleep-duration = "2ms"/g' $FRY/.celestia-app/config/config.toml
 
 -----------------------------------------------------------------
