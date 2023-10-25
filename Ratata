@@ -97,7 +97,7 @@ s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $YZD/.celest
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $YZD/.celestia-app/config/app.toml
 
 ---------------------------------------------------
-celestia-appd tendermint unsafe-reset-all --home $FRY/.celestia-app
+celestia-appd tendermint unsafe-reset-all --home $YZD/.celestia-app
 
 ---------------------------------------------------
 
