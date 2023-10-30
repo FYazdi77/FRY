@@ -155,6 +155,6 @@ echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $YZD/.bash_prof
 ------------------------------------------------
 CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a) 
 echo $CELESTIA_VALOPER 
-echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $FRY/.bash_profile 
+echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $YZD/.bash_profile 
 source $FRY/.bash_profile
 
