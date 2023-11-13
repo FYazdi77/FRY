@@ -24,7 +24,7 @@ cd $YZD
 rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
-git checkout v9.6.2
+git checkout v9.4.2
 make install
 
 -------------------------------------------------
